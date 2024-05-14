@@ -34,8 +34,8 @@ const Modalmovie = (props) => {
           <Modal show={props.showflag} onHide={props.close}  animation={false}>
           <Modal.Header closeButton>
           
-          <Image name = "image" src={`https://image.tmdb.org/t/p/w185/${props.moviename.poster_path}`} alt='image not found' thumbnail />
           </Modal.Header>
+          <Image name = "image" src={`https://image.tmdb.org/t/p/w185/${props.moviename.poster_path}`} alt='image not found' thumbnail />
           <Modal.Title name = "name">{props.moviename.title}</Modal.Title>
           <Form>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
@@ -48,15 +48,14 @@ const Modalmovie = (props) => {
                 onChange={(e)=>setcomment(e.target.value)}
               />
             </Form.Group>
-            
           </Form>
-          
+  
           <Modal.Footer>
           <Button variant="secondary" onClick={props.close}>
             Close
           </Button>
           <Button variant="primary" type='submit' onClick={addmovietodb} >
-            Save Changes
+            add movie
           </Button>
          
            </Modal.Footer>
