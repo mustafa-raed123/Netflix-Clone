@@ -1,0 +1,21 @@
+ a {
+    color: black;
+    text-decoration: none;
+    border: 2px solid aqua;
+    opacity: 0.8;
+    margin: 20px;
+    border-radius: 5px;
+    transition-duration: .3s;
+    padding: 3px;
+
+}
+a:hover{
+    background-color: aqua;
+    color: #fff;
+}
+div {
+    margin-top:5px ;
+    margin-bottom: 20px;
+    
+    
+}

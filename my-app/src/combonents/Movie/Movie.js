@@ -21,7 +21,7 @@ const Movie = (props) => {
    
    
    
-console.log("poster path :: ",props.showMovie.poster_path);
+
   return (
     <>
       <Col>
